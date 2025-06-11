@@ -1,0 +1,118 @@
+.no-webp .inicio {
+    background-image: url(../img/ejem7.jpg);
+}
+.webp .inicio {
+    background-image: url(../img/ejem7.jpg);
+}
+
+.header {
+    background-color: $grisOscuro;
+    padding: 1rem 0 3rem 0;
+
+    .barra {
+        a {
+            img {
+                min-width: 20rem;
+            }
+        }
+    }
+
+    &.inicio {
+        background-position: center center;
+        background-size: cover;
+
+        @include tablet {
+            min-height: 70rem;
+        }
+
+        .contenido-header {
+            @include tablet {
+                min-height: 70rem;
+            }
+        }
+    }
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+}
+.alinear-derecha{
+    padding-bottom: 2rem;
+}
+.seccion-inferior{
+    padding-top: 2rem;
+}
+
+// PRUEBAS
+
+.butt {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333333;
+    transition: all 0.5s ease-in-out;
+ 
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 4px; //* Separacion de letras
+    color: #fff;
+    
+  }
+  
+  .type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #030003;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .butt:hover {
+    
+    color: #fff;
+    border: none;
+  }
+  
+  .type1:hover::after {
+    visibility: visible;
+    transform: scale(150) translateX(2px);
+    color: #fff;
+  }
+  .dark-mode-boton{
+   
+    padding-bottom: 2rem;
+  }
+  
