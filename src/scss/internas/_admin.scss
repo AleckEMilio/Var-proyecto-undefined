@@ -14,6 +14,7 @@
     }
 }
 .summary {
+    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -29,6 +30,7 @@ table.propiedades{
     margin-top: 4rem;
     width: 100%;
     border-spacing: 0;
+    color: #ffffff;
     thead{
         background-color: $verdebotones;
 
@@ -45,10 +47,10 @@ table.propiedades{
     }
 }
 .boton-verde-block, .boton-amarillo-block{
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 .boton-verde {
-    margin: 1rem 0;
+    margin: 2rem 0;
     margin-bottom: 0;
 }
 .imagen-small{

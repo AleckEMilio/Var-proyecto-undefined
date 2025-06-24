@@ -4,7 +4,7 @@
 ?>
 
     <main class="contenedor seccion contenido-centrado">
-        <h1>Nuestro Blog</h1>
+        <h1>Blog</h1>
 
         <article class="entrada-blog">
             <div class="imagen">

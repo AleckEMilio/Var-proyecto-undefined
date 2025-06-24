@@ -46,7 +46,6 @@
                         <?php if ($auth): ?> <!-- : para ejectutar lo sig-->
                             <a  class="butt type1 btn-txt" href="cerrar-sesion.php"> 
                                 Cerrar
-                            
                             </a>
                         <?php endif;?>
                         
@@ -59,9 +58,6 @@
                         Proyecto AFKV
                     </h1>
                 </div>
-               
-                
-                
                
             </div> <!--.barra-->
                 <?php if($inicio) {?>

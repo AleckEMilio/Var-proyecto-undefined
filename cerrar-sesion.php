@@ -1,7 +1,9 @@
 <?php 
 session_start();
 $_SESSION = []; //!!!!!!!!!!!! Cerrar sesión
-header('Location : /')
+header('Location: /index.php');
+exit;
+
 
 
 ?>
